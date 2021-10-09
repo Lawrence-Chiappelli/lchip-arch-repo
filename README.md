@@ -13,7 +13,7 @@ To add a 3rd party repository:
 ```bash
 [lchip-arch-repo]
 SigLevel = Optional DatabaseOptional
-Server = https://github.com/Lawrence-Chiappelli/$repo/blob/main/$arch/lchip-arch-repo.db?raw=true
+Server = https://raw.githubusercontent.com/Lawrence-Chiappelli/$repo/main/$arch
 ```
 
 2) Then, sync your repositories:
